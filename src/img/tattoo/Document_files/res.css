@@ -1,0 +1,115 @@
+@media (max-width: 576px) {
+  .footer_social_div li {
+    margin: auto;
+  }
+  .footer_btn_div {
+    text-align: center;
+    padding: 1rem;
+  }
+  .footer_btn_div button {
+    width: 100%;
+  }
+  .footer_hr {
+    width: 6rem;
+  }
+  .footer_hr_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact_home_page_text_div {
+    padding: 1rem;
+  }
+  .contact_home_page_text_div .contact_home_page_text_p {
+    font-size: 14px;
+  }
+  .contact_home_page_text_div .contact_home_page_text_p2 {
+    font-size: 13px;
+  }
+  .category_img_top_text_div {
+    text-align: justify;
+  }
+  .category_img_top_text_div p {
+    font-size: 14px;
+  }
+  .section_top {
+    margin-bottom: 2rem;
+  }
+  .section_top2 {
+    margin-top: 2rem;
+  }
+  .top_title_div h3 {
+    font-size: 28px;
+  }
+  .slider_text_div1 {
+    text-align: center;
+  }
+  .slider_text_div1 p {
+    font-size: 14px;
+  }
+  .slider_overlay_div {
+    height: 21rem;
+    padding: 1rem;
+  }
+  .slider_img {
+    height: 21rem;
+  }
+  .nav_link3 {
+    margin-left: 0;
+  }
+  .nav_div {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider_overlay_div {
+    height: 35rem;
+  }
+  .slider_img {
+    height: 35rem;
+  }
+  .nav_link3 {
+    margin-left: 0;
+  }
+  .nav_div {
+    display: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slider_overlay_div {
+    height: 45rem;
+  }
+  .slider_img {
+    height: 45rem;
+  }
+  .nav_link3 {
+    margin-left: 1rem;
+  }
+  .nav_div {
+    display: block;
+  }
+}
+/*# sourceMappingURL=res.css.map */
